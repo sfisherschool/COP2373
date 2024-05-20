@@ -1,0 +1,26 @@
+Shelby Fisher 05/19/2024
+
+Description: Python program that will first generate a file of typical responses from a magic 8 ball toy to be read later on and used as responses to user input yes or no questions the program will loop until the user has prompted that they want to stop playing each loop the program will ask the user if they are done playing.
+
+Variables:      responses: A list of predefined responses that the Magic 8 Ball can give.
+		filename: The name of the file where the responses are stored.
+		question: The question asked by the user.
+		quit: The user’s decision on whether to continue asking questions.
+
+Functions:      write_responses_to_file(filename, responses): Writes the hardcoded responses from the responses variable to a file.
+		read_responses_from_file(filename): Reads responses from a file into a list.
+		ask_question(responses): Prompts the user to ask a question and displays a random response.
+		magic_8_ball(): The main function that calls the other functions to simulate the Magic 8 Ball.
+
+Logical steps:
+1)Define the responses and the filename.
+
+2)Call write_responses_to_file to write the responses to the file.
+
+3)Call read_responses_from_file to read the responses back into a list.
+
+4)Start a loop that continues until the user decides to quit:
+
+5)Call ask_question to prompt the user to ask a question and display a random response.
+
+6)If the user decides to quit, break the loop.
