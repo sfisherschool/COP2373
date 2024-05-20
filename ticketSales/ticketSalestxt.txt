@@ -1,0 +1,28 @@
+Shelby Fisher 05/19/2024
+
+Description: A python program that will pre-sell a selected amount of tickets (in this case 160 as that is the average number of seats in a cinema according to google). The program will also limit the amount of tickets each buyer can buy to just 4 tickets per buyer. The program will continue to run and prompt for ticket sales until the number of tickets left is 0, the program will also check to make sure that the buyer can not buy more tickets than what is left available (say there are 3 tickets left and a buyer wants to buy the normally allowed amount of 4) in that scenario the program will prompt the buyer that there is not that many tickets left and inform the buyer of how many tickets are available for purchase. 
+
+Variable created: available_tickets: The total number of tickets available for sale (160).
+		num_tickets_sold: The total number of tickets sold so far. Starts at 0 and increments by each purchase.
+		curr_buyers_count: The total number of buyers. Starts at 0 and increments with each successful purchase.
+		requested_tickets: The number of tickets a buyer wants to purchase. this is the result of the user input each loop
+
+Functions created: sell_tickets(): This function encapsulates the entire ticket selling process. It uses a while loop to continue selling tickets until all are sold out while also checking for valid inputs and handling errors all within itself.
+
+Logical steps:
+1)Initialize available_tickets to 160, num_tickets_sold and curr_buyers_count to 0.
+
+2)Start a while loop that continues until num_tickets_sold is less than or equal to total_tickets (meaning all tickets have sold).
+
+3)Inside the loop, prompt the user to enter the number of tickets they want to buy and store the input in requested_tickets.
+
+4)If requested_tickets is not a number, print an error message informing user the program is expecting a number and continue with the next iteration of the loop.
+
+5)If requested_tickets is less than 1 or more than 4, print an error message explaining the expected range of number accepted and continue with the next iteration of the loop.
+
+6)If num_tickets_sold plus requested_tickets exceeds available_tickets, inform the user that only a certain number of tickets can be sold and continue with the next iteration of the loop. Otherwise increment num_tickets_sold by requested_tickets and curr_buyers_count by 1
+
+7)print the number of tickets sold and remaining.
+
+8)After the loop completes, print the total number of buyers.
+
