@@ -24,3 +24,6 @@ Logical steps:
 5)Call ask_question to prompt the user to ask a question and display a random response.
 
 6)If the user decides to quit, break the loop.
+
+Link:
+https://github.com/sfisherschool/COP2373/tree/main/magicEightBall
