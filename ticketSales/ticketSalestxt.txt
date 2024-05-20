@@ -26,3 +26,6 @@ Logical steps:
 
 8)After the loop completes, print the total number of buyers.
 
+Link to github for assignment: 
+https://github.com/sfisherschool/COP2373/tree/main/ticketSales
+
