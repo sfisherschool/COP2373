@@ -1,0 +1,32 @@
+Shelby Fisher 05/27/2024
+
+Description: A Python program that scans an email message for spam trigger words and phrases. The program will prompt the user to enter an email message, then it will scan the message for each of the 30 spam keywords or phrases. For each occurrence of one of these within the message, it adds a point to the message’s “spam score”. Then it rates the likelihood that the message is spam, based on the number of points received. Finally, it displays the user’s spam score, the likelihood that it is spam, and the words/phrases which caused it to be considered spam.
+
+Variables created:
+spam_words: A list of 30 common spam trigger words and phrases.
+email: The email message entered by the user.
+spam_score: The total number of spam trigger words found in the email message.
+likelihood: The likelihood that the email message is spam, based on the spam score.
+spam_triggers: A list of the spam trigger words found in the email message.
+
+Functions created:
+check_spam(email): This function takes an email message as input and checks it for spam trigger words. It calculates the spam score, determines the likelihood that the email is spam, and identifies the spam trigger words found in the email.
+
+Logical steps:
+1)Initialize spam_words with a list of 30 common spam trigger words and phrases.
+
+2)Prompt the user to enter an email message and store the input in email.
+
+3)Call the check_spam(email) function with the user’s email message as input.
+
+4)Inside the check_spam(email) function, initialize spam_score and spam_triggers to 0 and an empty list.
+
+5)Loop through each word in spam_words. If the word is found in the email message, increment spam_score by 1 and add the word to spam_triggers.
+
+6)Determine the likelihood that the email is spam based on the spam_score: “Low” if spam_score is 3 or less, “Medium” if spam_score is between 4 and 5, and “High” if spam_score is more than 5.
+
+7)Return spam_score, likelihood, and spam_triggers.
+
+8)Print the spam score, the likelihood that the email is spam, and the spam trigger words found in the email message.
+
+Link to GitHub for assignment: https://github.com/sfisherschool/COP2373/tree/main/EmailSpamScore
