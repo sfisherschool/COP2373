@@ -1,4 +1,4 @@
-Shelby Fisher 05/27/2024
+Shelby Fisher 05/26/2024
 
 Description: A Python program that scans an email message for spam trigger words and phrases. The program will prompt the user to enter an email message, then it will scan the message for each of the 30 spam keywords or phrases. For each occurrence of one of these within the message, it adds a point to the message’s “spam score”. Then it rates the likelihood that the message is spam, based on the number of points received. Finally, it displays the user’s spam score, the likelihood that it is spam, and the words/phrases which caused it to be considered spam.
 
