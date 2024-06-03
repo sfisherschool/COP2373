@@ -1,0 +1,35 @@
+Shelby Fisher 06/03/2024
+
+Description:
+A program that asks the user for a list of their monthly expenses. The user is prompted to enter the type of expense and the amount. The program uses the reduce function to calculate the total expense, the highest expense, and the lowest expense. The program also labels what the highest and lowest expense is and displays it to the user at the end of the program.
+
+Variables created: expenses: A list that stores the user’s monthly expenses. Each expense is a tuple containing the type of expense and the amount.
+		   expense_name: The type of expense entered by the user.
+		   expense_amount: The amount of the expense entered by the user.
+		   total_expense: The total expense calculated by the reduce function.
+		   highest_expense: The highest expense calculated by the reduce function.
+		   lowest_expense: The lowest expense calculated by the reduce function.
+
+Functions created: get_expenses(): This function asks the user for their monthly expenses. It uses a while loop to continue asking for expenses until the user types ‘done’.
+		   analyze_expenses(expenses): This function calculates the total expense, the highest expense, and the lowest expense using the reduce function. It returns these values.
+		   main(): This function calls get_expenses() to get the expenses from the user, then calls analyze_expenses(expenses) to analyze the expenses. It then prints the results.
+
+Logical steps:
+1)Initialize expenses as an empty list.
+
+2)Start a while loop that continues until the user types ‘done’.
+
+3)Inside the loop, prompt the user to enter the type of expense and store the input in expense_name.
+
+4)If expense_name is ‘done’, check if expenses is empty. If it is, return None. Otherwise, break the loop.
+
+5)Prompt the user to enter the amount of the expense. If the input is not a number, print an error message and ask again.
+
+6)Add the expense to expenses as a tuple of expense_name and expense_amount.
+
+7)After the loop, call analyze_expenses(expenses) to calculate total_expense, highest_expense, and lowest_expense.
+
+8)Print the total expense, the highest expense, and the lowest expense.
+
+Link to GitHub for assignment:
+https://github.com/sfisherschool/COP2373/tree/main/expenseCalc
