@@ -1,4 +1,4 @@
-Shelby Fisher 06/03/2024
+Shelby Fisher 06/02/2024
 
 Description:
 A program that asks the user for a list of their monthly expenses. The user is prompted to enter the type of expense and the amount. The program uses the reduce function to calculate the total expense, the highest expense, and the lowest expense. The program also labels what the highest and lowest expense is and displays it to the user at the end of the program.
