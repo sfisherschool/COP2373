@@ -16,6 +16,12 @@ def count_sentences(text):
     # Print the total number of sentences
     print(f'Total number of sentences: {len(sentences)}')
 
-text = input("Enter sentences here: ")
+def main():
+    # Prompt the user to enter sentences
+    text = input("Enter sentences here: ")
 
-count_sentences(text)
+    # Call the count_sentences function with the user's input
+    count_sentences(text)
+
+# Call the main function
+main()
