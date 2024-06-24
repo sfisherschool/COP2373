@@ -1,0 +1,33 @@
+Shelby Fisher 06/23/2024
+
+Description: A Python program that validates phone numbers, social security numbers, and zip codes using regular expressions. The program prompts the user to enter a phone number, a social security number, and a zip code. It then checks if the entered data is valid according to the specified formats and displays the validation results.
+
+Variables created:
+
+	phone_number: The phone number entered by the user.
+
+	ssn: The social security number entered by the user.
+
+	zip_code: The zip code entered by the user.
+
+Functions created:
+
+	validate_phone_number(phone_number): This function takes a phone number as input and checks if it matches the format (123) 456-7890.
+
+	validate_social_security_number(ssn): This function takes a social security number as input and checks if it matches the format 123-45-6789.
+
+	validate_zip_code(zip_code): This function takes a zip code as input and checks if it matches the format 12345 or 12345-6789.
+
+	main(): This function prompts the user to enter a phone number, a social security number, and a zip code. It then calls the validation functions and displays whether the entered data is valid.
+
+Logical steps:
+
+1) Call the main() function.
+
+2) Inside the main() function, prompt the user to enter a phone number, a social security number, and a zip code.
+
+3) Call the validate_phone_number(phone_number), validate_social_security_number(ssn), and validate_zip_code(zip_code) functions with the user’s input.
+
+4) If the validation function returns True, print that the input is valid. Otherwise, print that the input is invalid and provide the correct format.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/regularExValidation
