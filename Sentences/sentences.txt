@@ -1,0 +1,34 @@
+Shelby Fisher 06/23/2024
+
+Description: A Python program that counts the number of sentences in a given text using regular expressions. The program prompts the user to enter a text and then counts the number of sentences in the text according to the specified format and displays the count and the sentences.
+
+Variables created:
+
+	text: The text entered by the user.
+
+	sentences: A list that stores all the sentences found in the text.
+
+	pat: The regular expression pattern used to match sentences in the text.
+
+Functions created:
+
+	count_sentences(text): This function takes a text as input and checks if it matches the sentence format using regular expressions. It then counts the number of sentences and prints each sentence along with the total number of sentences.
+
+	main(): This function prompts the user to enter a text. It then calls the count_sentences function and displays the number of sentences and the sentences themselves.
+
+Logical steps:
+
+1) Call the main() function.
+
+2) Inside the main() function, prompt the user to enter a text and store it in the variable text.
+
+3) Call the count_sentences(text) function with the user’s input.
+
+4) Inside the count_sentences function, use the regular expression pattern pat to find all sentences in the text and store them in the sentences list.
+
+5) Print each sentence in the sentences list.
+
+6) Print the total number of sentences, which is the length of the sentences list.
+
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/Sentences
