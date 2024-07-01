@@ -1,0 +1,20 @@
+Shelby Fisher 06/30/2024
+
+Description: A Python program that reads student data from a grades.csv file and displays it in tabular format. The program uses the pandas library to read the CSV file and print the data.
+
+Variables created:
+	df: A DataFrame that stores the student data read from the grades.csv file.
+
+Functions created:
+	read_grades_from_csv(): This function opens the grades.csv file in read mode and reads the student data into a pandas DataFrame. It then prints the DataFrame, displaying the student data in tabular format.
+
+Logical steps:
+1) Call the read_grades_from_csv() function.
+
+2) Inside the read_grades_from_csv() function, open the grades.csv file in read mode.
+
+3) Read the student data from the grades.csv file into a pandas DataFrame and store it in the variable df.
+
+4) Print the DataFrame df, displaying the student data in tabular format.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/csvGenerator
