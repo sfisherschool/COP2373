@@ -1,0 +1,28 @@
+Shelby Fisher 06/30/2024
+
+Description: A Python program that allows an instructor to input student data and writes it to a grades.csv file. The program prompts the user to enter the number of students and each student’s first name, last name, and three exam grades. The program includes validation and error handling to ensure correct data types are entered.
+
+Variables created:
+	num_students: The number of students entered by the user.
+	first_name, last_name: The first and last names of a student.
+	exam1, exam2, exam3: The three exam grades of a student.
+
+Functions created:
+	write_grades_to_csv(num_students): This function takes the number of students as input. It prompts the user to enter each student’s first name, last name, and three exam grades. It writes this data to a grades.csv file. If an incorrect data type is entered for the exam grades, the function informs the user and allows them to try again.
+
+	main(): This function prompts the user to enter the number of students. It includes validation to ensure an integer is entered. It then calls the write_grades_to_csv(num_students) function.
+
+Logical steps:
+1) Call the main() function.
+
+2) Inside the main() function, prompt the user to enter the number of students and store it in the variable num_students. If an incorrect data type is entered, inform the user and allow them to try again.
+
+3) Call the write_grades_to_csv(num_students) function with the user’s input.
+
+4) Inside the write_grades_to_csv function, loop over the number of students. For each student, prompt the user to enter the student’s first name, last name, and three exam grades. If an incorrect data type is entered for the exam grades, inform the user and allow them to try again.
+
+5) Write the student data to the grades.csv file.
+
+6) Print a message indicating that the student data has been written to grades.csv.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/upload/main/csvGenerator
