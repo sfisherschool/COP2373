@@ -1,0 +1,28 @@
+Shelby Fisher 07/07/2024
+
+Description: A Python program that simulates a bank account. The program creates a BankAcct class with methods for adjusting the interest rate, withdrawing and depositing funds, checking the balance, and calculating the interest over a given number of days. The program also includes a test_bank_account function to test the different methods in the BankAcct class and a main function to run the test function.
+
+Variables created:
+	name: The name of the account holder
+
+	account_number: The account number
+
+	amount: The initial amount in the account
+
+	interest_rate: The initial interest rate of the account
+
+Class created:
+	BankAcct: This class encapsulates the entire bank account process. It includes methods for adjusting the interest rate, withdrawing and depositing funds, checking the balance, and 	calculating the interest over a given number of days.
+
+Logical steps:
+1) Initialize name, account_number, amount, and interest_rate in the __init__ method of the BankAcct class.
+2) Use the adjust_interest_rate method to adjust the interest rate of the account.
+3) Use the withdraw method to withdraw a certain amount from the account.
+4) Use the deposit method to deposit a certain amount into the account.
+5) Use the balance method to check the current balance of the account.
+6) Use the calculate_interest method to calculate the interest over a given number of days.
+7) Use the __str__ method to return a string representation of the account.
+8) Use the test_bank_account function to test the different methods in the BankAcct class.
+9) Use the main function to run the test_bank_account function.
+
+Link to GitHub: https://github.com/sfisherschool/COP2373/tree/main/bankAccount
