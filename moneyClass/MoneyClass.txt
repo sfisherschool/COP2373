@@ -1,0 +1,30 @@
+Shelby Fisher 07/14/2024
+
+Description: A Python program that extends the Decimal class to create a Money class. The Money class supports addition, multiplication, and subtraction operations. The program also includes a test function to verify these operations.
+
+Variables created:
+	m1, m2, m3, m4, m5: Instances of the Money class used in the test_money_class function.
+
+Classes created:
+	Money: This class extends the Decimal class and adds support for addition, multiplication, and subtraction operations. It also 	stores the units of the money.
+
+Functions created:
+	__add__(self, other): This method defines the behavior of the + operator. If the other operand is a Money object, it adds the 	two amounts and returns a new Money object. If the other operand is not a Money object, it adds the amount to this Money 	objects amount and returns a new Money object.
+
+	__sub__(self, other): This method defines the behavior of the - operator. If the other operand is a Money object, it subtracts 	the other amount from this amount and returns a new Money object. If the other operand is not a Money object, it subtracts the 	other amount from this Money object's amount and returns a new Money object.
+
+	__mul__(self, other): This method defines the behavior of the * operator. If the other operand is a Money object, it multiplies 	the two amounts and returns a new Money object. If the other operand is not a Money object, it multiplies this Money objects 	amount by the other amount and returns a new Money object.
+
+	test_money_class(): This function creates instances of the Money class, performs the operations, and prints the results.
+
+	main(): This function calls the test_money_class function.
+
+Logical steps:
+1) Call the main() function.
+2) Inside the main() function, call the test_money_class function.
+3) Inside the test_money_class function, create instances of the Money class and perform addition, subtraction, and multiplication operations.
+4) Print the results of the operations.
+
+Link to Github: https://github.com/sfisherschool/COP2373/tree/main/moneyClass
+
+
