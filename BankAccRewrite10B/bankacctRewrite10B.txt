@@ -1,0 +1,38 @@
+Shelby Fisher 07/14/2024
+
+Description: A Python program that extends the Money class created in 10A. The program also includes a BankAcct class rewritten to extend the Money class and includes methods for depositing, withdrawing, and calculating interest. The program includes a test function to verify these operations.
+
+Variables created:
+	acct: Instance of the BankAcct class used in the test_bank_account function.
+	Classes created:
+
+	Money: This class extends the Decimal class and adds support for addition and subtraction operations. It also stores the units of 	the money.
+
+	BankAcct: This class extends the Money class and includes methods for depositing, withdrawing, and calculating interest. It also 	stores the name, account number, and interest rate of the bank account.
+	Functions created:
+
+	__add__(self, other): This method in the Money class defines the behavior of the + operator. If the other operand is a Money 	object, it adds the two amounts and returns a new Money object. If the other operand is not a Money object, it adds the amount to 	this Money object’s amount and returns a new Money object.
+
+	__sub__(self, other): This method in the Money class defines the behavior of the - operator. If the other operand is a Money 	object, it subtracts the other amount from this amount and returns a new Money object. If the other operand is not a Money object, 	it subtracts the other amount from this Money object’s amount and returns a new Money object.
+
+	adjust_interest_rate(self, new_rate): This method in the BankAcct class adjusts the interest rate of the bank account.
+
+	withdraw(self, amount): This method in the BankAcct class withdraws a certain amount from the bank account.
+
+	deposit(self, amount): This method in the BankAcct class deposits a certain amount into the bank account.
+
+	balance(self): This method in the BankAcct class returns the balance of the bank account.
+
+	calculate_interest(self, days): This method in the BankAcct class calculates the interest over a certain number of days.
+
+	test_bank_account(): This function creates an instance of the BankAcct class, performs the operations, and prints the results.
+
+	main(): This function calls the test_bank_account function.
+
+Logical steps:
+1) Call the main() function.
+2) Inside the main() function, call the test_bank_account function.
+3) Inside the test_bank_account function, create an instance of the BankAcct class and perform deposit, withdrawal, and interest calculation operations.
+4) Print the results of the operations.
+
+Link to Github: https://github.com/sfisherschool/COP2373/tree/main/BankAccRewrite10B
