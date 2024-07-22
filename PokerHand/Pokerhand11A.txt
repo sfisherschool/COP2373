@@ -1,0 +1,36 @@
+Shelby Fisher 07/21/2024
+
+Description: A Python program that simulates a game of Poker using a Deck class. The program deals an initial hand of five cards, prompts the user to select cards to replace, and then prints the final hand after drawing new cards.
+
+Variables created:
+	deck: An instance of the Deck class that represents a deck of 52 cards.
+
+	hand: A list that stores the current hand of five cards.
+
+	positions_to_replace: A list that stores the positions of the cards to be replaced.
+
+Classes created:
+	Deck: This class represents a deck of cards. It has the following attributes and methods:
+		card_list: A list of cards in the deck.
+
+		current_card: The index of the current card to be dealt.
+
+		size: The size of the deck.
+
+		__init__(self, size): Initializes a new deck of the given size and shuffles it.
+
+		deal(self): Deals a card from the deck. If all cards have been dealt, it reshuffles the deck.
+
+Functions created:
+	poker_game(): This function simulates a game of Poker. It deals an initial hand of five cards, prompts the user to enter a series 	of numbers to select cards to be replaced, replaces the selected cards, and then prints the final hand.
+
+Logical steps:
+1) Call the poker_game() function.
+2) Inside the poker_game() function, initialize a Deck object.
+3) Deal an initial hand of five cards and store them in the hand variable.
+4) Print the initial hand.
+5) Prompt the user to enter a series of numbers to select cards to be replaced and store them in the positions_to_replace variable.
+6) Replace the selected cards in the hand with new cards dealt from the deck.
+7) Print the final hand after drawing new cards.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/PokerHand
