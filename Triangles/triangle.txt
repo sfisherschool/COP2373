@@ -1,0 +1,26 @@
+Shelby Fisher Date: 07/22/2024
+
+Description: A Python program that calculates the length of the hypotenuse of a right triangle given the nearest angle (in degrees) and the length of the adjacent side. The program takes user input for the angle and the adjacent side length, validates the inputs, and then calculates and prints the length of the hypotenuse.
+
+Variables created:
+	angle_degrees: A float that stores the nearest angle in degrees.
+
+	adjacent_side_length: A float that stores the length of the adjacent side.
+
+	angle_radians: A float that stores the angle in radians.
+
+	hypotenuse_length: A float that stores the length of the hypotenuse.
+
+Functions created:
+	calculate_hypotenuse(): This function takes user input for the nearest angle and the length of the adjacent side, validates the inputs, converts the angle to radians, calculates the length of the hypotenuse
+
+Logical steps:
+1) Call the calculate_hypotenuse() function.
+2) Inside the calculate_hypotenuse() function, take user input for the nearest angle and the length of the adjacent side and store them in the angle_degrees and adjacent_side_length variables, respectively.
+3) Validate the inputs. If the angle is not between 0 and 90 degrees or the adjacent side length is not greater than 0, print an error message and ask for the input again.
+4) Convert the angle from degrees to radians and store it in the angle_radians variable.
+5) Calculate the length of the hypotenuse using the formula c=cos(θ)b​
+ and store it in the hypotenuse_length variable.
+6) Print the length of the hypotenuse.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/Triangles
