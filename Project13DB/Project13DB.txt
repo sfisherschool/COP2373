@@ -1,0 +1,35 @@
+Shelby Fisher 07/28/2024
+
+Description: A program that creates a database called population_BL, inserts initial population data for 10 cities in Florida, simulates population growth for the next 20 years at a 2% growth rate, and visualizes the population growth for a selected city using matplotlib.
+
+Variables created:
+
+db_name: 
+	A string representing the name of the database.
+conn: 
+	A connection object to the SQLite database.
+cursor: 
+	A cursor object to execute SQL commands.
+cities: 
+	A list of tuples containing the initial population data for 10 cities in Florida for the year 2023.
+
+Functions created:
+	simulate_population_growth(): This function simulates population growth for the next 20 years at a 2% growth rate for each year and inserts the data into the population table.
+
+	show_population_growth(): This function prompts the user to choose a city from the list of 10 cities and displays the population growth for the selected city using matplotlib.
+
+Logical steps:
+1) Create a connection to the SQLite database (population_BL.db).
+2) Create the population table with fields: city, year, and population.
+3) Insert initial population data for 10 cities in Florida for the year 2023 into the population table.
+4) Define the simulate_population_growth() function:
+5) Loop through each city and simulate population growth for the next 20 years at a 2% growth rate.
+6) Insert the simulated data into the population table.
+7) Call the simulate_population_growth() function to populate the table with simulated data.
+8) Define the show_population_growth() function:
+9) Display the list of 10 cities and prompt the user to choose one.
+10) Retrieve and plot the population growth data for the selected city using matplotlib.
+11) Call the show_population_growth() function to display the population growth for the selected city.
+12) Close the database connection.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/Project13DB
