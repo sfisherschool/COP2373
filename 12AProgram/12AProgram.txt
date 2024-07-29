@@ -1,0 +1,33 @@
+Shelby Fisher 07/29/2024
+
+Description: A program that reads student exam data from a grades.csv file, calculates various statistics, and displays the results. The program uses the pandas and numpy libraries to read the CSV file, process the data, and print the statistics.
+
+Variables created:
+grades_df: 
+	A DataFrame that stores the student data read from the grades.csv file.
+
+exam_scores: 
+	A numpy array that stores the numeric exam scores extracted from the DataFrame.
+
+all_scores: 
+	A flattened numpy array containing all exam scores for overall statistics calculation.
+
+passing_grade: 
+	A constant representing the minimum passing grade (60).
+
+Logical steps:
+1) Load the data from the grades.csv file into a pandas DataFrame (grades_df).
+2) Print the first few rows of the DataFrame to understand its structure.
+3) Extract only the exam scores from the DataFrame, converting them to a numpy array (exam_scores).
+4) For each exam (column in exam_scores):
+	a) Remove any NaN values.
+	b) Calculate and print the mean, median, standard deviation, minimum, and maximum scores.
+5) Flatten the exam_scores array to create all_scores for overall statistics calculation.
+6) Remove any NaN values from all_scores.
+7) Calculate and print the overall mean, median, standard deviation, minimum, and maximum scores across all exams.
+8) For each exam (column in exam_scores):
+	a) Remove any NaN values.
+	b) Determine and print the number of students who passed and failed.
+9) Calculate and print the overall pass percentage across all exams.
+
+GitHub Link: https://github.com/sfisherschool/COP2373/tree/main/12AProgram
